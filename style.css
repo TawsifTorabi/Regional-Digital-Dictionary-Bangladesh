@@ -1,0 +1,391 @@
+html { 
+  background: url(Photos/background body.png) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+h1 {
+    display: block;
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	margin: 20px auto;
+	color: white !important; 
+	background-color: #555;
+	background: linear-gradient(red, #035914);
+	border: 0 none;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 #000;
+	box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+	cursor: pointer;
+	font-family: siyam rupali;`
+}
+h1.wraphead {
+    display: block;
+	font-size: 80px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	margin: 20px auto;
+	color: white !important; 
+	background-color: #555;
+	background: linear-gradient(red, #035914);
+	border: 0 none;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 #000;
+	box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+	cursor: pointer;
+	font-family: siyam rupali;`
+}
+h3 {
+	font-size: 30px; 
+   color: lime;
+	text-shadow: 2px 2px 2px #f06d06;
+    font-family: siyam rupali;
+	background: linear-gradient(red, transparent);
+	border-radius: 5px 7px 5px 7px;
+}
+h4 {
+    text-shadow:  2px 2px 2px rgba(138, 142, 137, 0.38);
+    font-family: siyam rupali;
+	color: lime;
+	
+}
+a {
+  text-decoration: none;
+  cursor:pointer;
+  size: 20px;
+  font-size: 25px;
+  color: red;
+  cursor: url(Cursor/1.cur),auto;
+}
+
+a:visited {
+  text-decoration: none;
+  cursor:pointer;
+  size: 20px;
+  font-size: 25px;
+  color: red;
+  cursor: url(Cursor/1.cur),auto;
+}
+
+
+.time p{
+box-shadow: 2px 2px 5px lime;
+border-radius: 15px;
+color: lime;
+background: red;
+}
+
+
+a:hover {
+background-color: transparent;
+  color:#00CA00;
+  cursor:pointer;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px lime;
+
+
+}
+nav {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #98bf21;
+    width: 120px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: siyam rupali;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+	transition: 0.5s;
+}
+marquee {
+background: linear-gradient(#EA4D00,#8d4d0e);
+color: white;
+font-family: siyam rupali;
+box-shadow: 2px 2px 20px black;
+border-radius: 15px;
+}
+
+table {
+	width:100%;
+	background: linear-gradient(black, transparent) ;
+	border-color: lime;
+
+	}
+
+
+
+
+.dev {
+border:2px #000000;
+color: #ffffff;
+text-shadow: 2px 2px 2px #6B6B6B;
+box-shadow:4px 4px 8px 2px #000000;
+}
+
+.credit  {
+background-image: linear-gradient(transparent, #f0ff00);
+width: 100%;
+height: 600px;
+color: #000000;
+size: 15px;
+ 
+
+}
+
+
+.credit h4{
+    font-family: siyam rupali;
+	color: black;
+	}
+
+.credit b{
+    font-family: siyam rupali;
+	color: #000000;
+	}
+
+.copyright {
+background: linear-gradient(#f0ff00, #858d0a);
+color: #000000;
+text-align: center;
+box-shadow: 2px 3px 16px white;
+border-radius: 9px;
+}
+
+.copyright h4{
+color: #000000;
+text-align: center;
+text-shadow: 2px 3px 16px white;
+}
+
+.copyr {
+background: linear-gradient(#f0ff00, #858d0a);
+color: #000000;
+text-align: center;
+box-shadow: 2px 3px 16px black;
+border-radius: 9px;
+}
+
+.dedication{
+text-shadow: 2px 2px 1px #000000;
+size: 15px;
+}
+#spsc img {
+border: 1px 2px #000000;
+}
+.nav a:hover a:active {
+size: 20px;
+background-color: yellow;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #000000; 
+    -webkit-border-radius: 20px 1px 20px 1px;
+    border-radius: 10px 1px 10px 1px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px 1px 10px 1px;
+    background: lime; 
+    -webkit-box-shadow: inset 0 0 6px #000000; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: black; 
+}
+.update {
+	color: red;
+	text-decoration: bold;
+	text-shadow: 0px 0px 6px lime;
+	
+}
+audio {
+background:linear-gradient(lime, #ff0000);
+box-shadow: 0px 2px 2px #ffffff;
+border:#488A13 1px solid;
+opacity: .75;
+}
+audio:hover{
+background:#002200;
+opacity: .9;
+}
+
+button{
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	margin: 20px auto;
+	color: lime;
+	background-color: #555;
+	background: linear-gradient(red, #770303);
+	border: 0 none;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 #000;
+	box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+	cursor: pointer;
+	font-family: siyam rupali;`
+}
+p #time {
+color: lime;
+font-size: 40px;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+#naku table {
+border-color: red;
+}
+#naku marquee{
+background:linear-gradient(transparent, #A80000);
+text-shadow: 2px 2px 5px lime;
+}
+@font-face {
+  font-family: 'Siyam Rupali';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/siyamrupali.ttf);
+}
+#namu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	box-shadow: 2px 2px 2opx #000000;
+}
+
+#namu li {
+    float: left;
+	box-shadow: 2px 2px 2opx #000000;
+}
+
+#namu a:link, a:visited {
+    display: block;
+	border-radius: 25px;
+    width: 220px;
+    font-weight: bold;
+    color: #ffffff;
+	text-shadow: 2px 2px 3px #000000;
+    background: linear-gradient(#969696, black);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+	box-shadow: 2px 2px 2px #000000;
+	transition: 0.5s;
+}
+#namu a:hover{
+		transition: 0.5s;
+}
+.credito{
+background: linear-gradient(transparent, lime);
+}
+/*designed by bloggertawsiftorabi.blogspot.com and grplusbd.cf */
+#shbox {
+    background: transparent;
+    border-radius: 25px;
+	border-shadow: 4px 2px 2px 9px #000000;
+    padding: 20px 10px;
+    width: 40%;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+#shbox input {
+    outline: none;
+}
+
+#shbox input[type="text"] {
+    background: linear-gradient(red, #770303);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: transparent;
+    font: bold 12px siyam rupali;
+    color: black;
+    width: 90%;
+    padding: 8px 15px 8px 30px;
+}
+
+#bton-submit {
+    display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	margin: 20px auto;
+	color: #000000;
+	background-color: lime;
+	background: -webkit-linear-gradient(#888, #555);
+	background: linear-gradient(#7aeb0c, #529d09);
+	border: 0 none;
+	border-radius: 3px;
+	text-shadow: 0 -1px 0 #000;
+	box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+	cursor: pointer;
+	font-family: siyam rupali;`
+}
+
+#bton-submit:hover {
+    background: lime;
+
+}
+
+#bton-submit:active {
+    background: lime
+;
+    outline: none;
+}
+
+#bton-submit::-moz-focus-inner {
+    border: 0;
+}
+a.download{
+display: block;
+font-size: 2.4vw;
+font-weight: bold;
+text-transform: uppercase;
+padding: 10px 15px;
+margin: 20px auto;
+color: red;
+border-radius: 50px 50px 9px 9px;
+background: linear-gradient(#dadad7, white);
+text-shadow: 0 -1.5px 0 #000;
+box-shadow: 1px 8px 50px red;
+cursor: pointer;
+font-family: siyam rupali;
+text-align: center;
+width: 200px;
+text-decoration: none;
+width: 40%;
+transition: 1s;
+}
+a:hover.download{
+background: linear-gradient(#dadad7, white);
+color: green;
+box-shadow: 1px 8px 50px lime;
+transition: 1s;
+}
+a:mouseout.download{
+transition: 1s;
+}
